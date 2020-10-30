@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-11-promisification",
+  "version": "1.0.0",
+  "description": "GoIT JS Homework 11 Promisification",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-promisification/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "cleanup": "rm -rf .cache dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otpauk/goit-js-hw-11-promisification.git"
+  },
+  "keywords": [],
+  "author": "Oleh Pauk <otpauk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otpauk/goit-js-hw-11-promisification/issues"
+  },
+  "homepage": "https://otpauk.github.io/goit-js-hw-11-promisification",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
